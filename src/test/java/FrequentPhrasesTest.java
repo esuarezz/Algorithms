@@ -12,7 +12,7 @@ public class FrequentPhrasesTest {
     public void getMostFrequentPhrases() throws Exception {
             FrequentPhrases frequentPhrases = new FrequentPhrases();
 
-           assert frequentPhrases.getMostFrecuentPhrases(PATH_FILE);
+            frequentPhrases.getMostFrecuentPhrases(PATH_FILE);
     }
 
 }
